@@ -11,7 +11,7 @@ apikey = os.environ['apikey']
 url = os.environ['url']
 
 
-''' create a translator instance '''
+''' Translator instance '''
 authenticator = IAMAuthenticator(apikey)
 language_translator = LanguageTranslatorV3(
     version='2018-05-01',
